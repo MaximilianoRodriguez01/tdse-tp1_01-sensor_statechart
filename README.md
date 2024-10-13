@@ -8,12 +8,13 @@
 
 - Al presionarse, se le envía un raise al sistema accionando todos los eventos posibles del sistema, haciendo que este mismo se encargue de decidir como usarlo.
 
-EVENTOS:
+### EVENTOS:
 
-EV_BTN_01_PRESSED: El botón es presionado.
-EV_BTN_01_NOT_PRESSED: El botón no está presionado.
-ACCIONES:
+- EV_BTN_01_PRESSED: El botón es presionado.
+- EV_BTN_01_NOT_PRESSED: El botón no está presionado.
 
-tick = DEL_BTN_01_MAX: Establece el temporizador en su valor máximo.
-tick--: Decrementa el valor del temporizador.
-raise: Trigger de los eventos del sistema.
+### ACCIONES:
+
+- tick = DEL_BTN_01_MAX: Establece el temporizador en su valor máximo.
+- tick--: Decrementa el valor del temporizador.
+- raise: Trigger de los eventos del sistema.
